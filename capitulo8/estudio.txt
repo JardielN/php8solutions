@@ -1,5 +1,0 @@
-
-$numbers = [2,4,7];
-
-// uso de array walk
-array_walk($numbers, fn(&$val) => $val *= 2);
